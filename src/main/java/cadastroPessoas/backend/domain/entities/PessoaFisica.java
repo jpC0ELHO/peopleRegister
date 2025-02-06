@@ -45,12 +45,12 @@ public class PessoaFisica extends Entidade{
     @CollectionTable(name = "tb_pessoafisica_email",
             joinColumns = @JoinColumn(name = "pessoafisica_cpf", referencedColumnName = "cpf"))
     @Column(name = "emails", nullable = false)
-    private Set<String> email;
+    private Set<String> emails;
 
     @Column(nullable = false)
     @JoinColumn(name = "pessoafisica_cpf", referencedColumnName = "cpf")
     @OneToMany(cascade = {CascadeType.ALL}, fetch = FetchType.LAZY)
-    private Set<Telefone> telefone;
+    private Set<Telefone> telefones;
 
     @Column(nullable = false)
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
