@@ -6,7 +6,7 @@
 -23: https://www.oracle.com/br/java/technologies/downloads/#jdk23-windows
 
 
-- Meaven(instalado nas variaveis de ambiente):
+- Maven(instalado nas variaveis de ambiente):
 
 -https://maven.apache.org/download.cgi
 
