@@ -8,6 +8,6 @@
 
 - Meaven(instalado nas variaveis de ambiente):
 
-- https://maven.apache.org/download.cgi
+-https://maven.apache.org/download.cgi
 
-- https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip
+-https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip
